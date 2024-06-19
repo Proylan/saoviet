@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code Reader</title>
+</head>
+<body>
+    <video id="video" width="450" height="400" autoplay></video>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <div id="output"></div>
+
+    <script src="https://rawgit.com/cozmo/jsQR/master/dist/jsQR.js"></script>
+    <script src="app2.js"></script>
+</body>
+</html>
